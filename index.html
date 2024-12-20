@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valhalla Debug</title>
+    <link rel="stylesheet" href="node_modules/ol/ol.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="main-content">
+      <div id="sidebar">
+        <div id="sidebar-content">
+          <div id="header">
+            <h2>Valhalla Demo</h2>
+          </div>
+          <div id="end-points">
+            <ul>
+              <li id="locate">/locate</li>
+              <li id="route">/route</li>
+              <li id="sources-to-targets">/sources_to_targets</li>
+              <li id="isochrone">/isochrone</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="map-wrapper">
+        <div id="map"></div>
+        <div id="map-overlays">
+          <a id="osm-link" target="_blank">View on OSM</a>
+          <button id="locate-btn">Locate</button>
+        </div>
+      </div>
+      <div id="results">
+        <pre id="json-output"></pre>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

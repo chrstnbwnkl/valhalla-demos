@@ -1,0 +1,20 @@
+{
+  "name": "valhalla_debug_frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@turf/circle": "^7.1.0",
+    "ol": "^10.2.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12"
+  }
+}
